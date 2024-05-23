@@ -16,10 +16,10 @@ const MainContact  = () => {
      </div>
   </div>
 </div>
-<div className="mt-5">
+<div className="mt-5 mt-md-0">
   <Contact/>
 </div>
-<div className="mt-5">
+<div className="mt-5 mt-md-0">
   <Footer/>
 </div>
 </div>

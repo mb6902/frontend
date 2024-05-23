@@ -23,39 +23,43 @@ const LearnWithUs = () => {
                         <h5>Home / Learn with Us</h5>
                     </div>
                 </div>
-            </div>
-            <div className="mt-5">
-                <Form />
-            </div>
-            <div className="mt-5">
-                <PrivacyPolicy />
-            </div>
-            <div className="mt-5">
-                <Cancel/>
-            </div>
-            <div className="mt-5">
-                <OwnerShip/>
-            </div>
-            <div className="mt-5">
-                <Payment/>
-            </div>
-            <div className="mt-5">
-                <Shipping/>
-            </div>
-            <div className="mt-0">
-                <Contact/>
-            </div>
-            <div className="mt-0">
-                <TermsAndConditions/>
-            </div>
-            <div className="mt-0">
-                <Disclaimer/>
-            </div>
-            <div className="mt-5">
-                <ContactUs/>
-            </div>
-            <div className="mt-5">
-                <Footer/>
+
+                <div className="bg-main">
+                    <div className="d-flex justify-content-end align-items-end">
+                        <Form />
+                        <h3 className="text-bg-main w-25 h-100">Learn with Us!</h3>
+                    </div>
+                </div>
+                <div className="mt-5">
+                    <PrivacyPolicy />
+                </div>
+                <div className="mt-5">
+                    <Cancel />
+                </div>
+                <div className="mt-5">
+                    <OwnerShip />
+                </div>
+                <div className="mt-5">
+                    <Payment />
+                </div>
+                <div className="mt-5">
+                    <Shipping />
+                </div>
+                <div className="mt-0">
+                    <Contact />
+                </div>
+                <div className="mt-0">
+                    <TermsAndConditions />
+                </div>
+                <div className="mt-0">
+                    <Disclaimer />
+                </div>
+                <div className="mt-5">
+                    <ContactUs />
+                </div>
+                <div className="mt-5">
+                    <Footer />
+                </div>
             </div>
         </div>
     );

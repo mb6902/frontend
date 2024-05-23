@@ -1,12 +1,12 @@
 import BDE from "../../Assests/Ourservice/BDE.png";
 const BusinessCollaborations  = () => {
   return (
-    <div className="row p-md-5 mt-5 mx-5">
+    <div className="row p-md-5 mt-5 mt-md-0 mx-5">
             <div className="col-md-12 col-lg-6 d-flex flex-column justify-content-center">
                 <div>
                     <h6 className="text-service text-md-start">Business Collaborations</h6>
                 </div>
-                <div>
+                <div> 
                     <p className="mt-md-3 service-team">
                     Forge valuable partnerships and collaborations to drive mutual success with our business collaborator services. We facilitate connections with like-minded businesses, 
                     startups, and industry experts to explore synergies, share resources, and unlock new opportunities for innovation and growth.

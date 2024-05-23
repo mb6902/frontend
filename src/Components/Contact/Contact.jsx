@@ -5,7 +5,7 @@ import "../../pages/Home/Home.css";
 
 const Contact = () => {
     return (
-        <div className="container-fluid py-5">
+        <div className="container-fluid">
             <div className="text-center mb-4">
                 <h5 className="text-muted" style={{ fontWeight: "500", fontSize: "18px", lineHeight: "32px", font: "Poppins" }}>CONTACT US</h5>
                 <h5 className="mt-2" style={{ fontWeight: "600", fontSize: "24px", lineHeight: "32px", font: "Poppins", color: "#70BF29" }}>Get In Touch</h5>

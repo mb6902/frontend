@@ -1,7 +1,7 @@
 import GD from "../../Assests/Ourservice/GD.png";
 const GraphicDesign  = () => {
   return (
-    <div className="row p-md-5 mt-5 mx-5">
+    <div className="row p-md-5 mt-5 mt-md-0 mx-5">
     <div className="col-md-12 col-lg-6 mb-4 d-flex justify-content-center align-items-center">
         <img src={GD} alt="discover our story" className="img-fluid rounded-2" />
     </div>

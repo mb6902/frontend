@@ -1,11 +1,11 @@
 import './Learn.css';
 const Form = () => {
     return (
-        <div className="container mt-5">
-            <div className="row justify-content-center">
-                <div className="col-12 col-md-10 col-lg-8 p-4 bg rounded">
+        <div className="container-fluid mt-5">
+            <div className="row justify-content-start p-md-5">
+                <div className="col-12 col-md-12 col-lg-8 p-md-4 bg rounded-4 w-50 h-25">
                     <div className="mb-3">
-                        <h5 className="text-start text-white">Full Name</h5>
+                        <h5 className="text-start text-dark">Full Name</h5>
                         <input
                             name="name"
                             type="text"
@@ -14,7 +14,7 @@ const Form = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        <h5 className="text-start text-white">Email Address</h5>
+                        <h5 className="text-start text-dark">Email Address</h5>
                         <input
                             name="email"
                             type="email"
@@ -23,7 +23,7 @@ const Form = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        <h5 className="text-start text-white">Phone Number</h5>
+                        <h5 className="text-start text-dark">Phone Number</h5>
                         <input
                             name="phone"
                             type="tel"
@@ -32,7 +32,7 @@ const Form = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        <h5 className="text-start text-white">Interested In :</h5>
+                        <h5 className="text-start text-dark">Interested In :</h5>
                         <div className="row">
                             <div className="col-6">
                                 <div className="form-check">
@@ -43,7 +43,7 @@ const Form = () => {
                                         id="fullStack"
                                     />
                                     <label
-                                        className="form-check-label text-white"
+                                        className="form-check-label text-dark"
                                         htmlFor="fullStack"
                                     >
                                         Full Stack Development
@@ -59,7 +59,7 @@ const Form = () => {
                                         id="digitalMarketing"
                                     />
                                     <label
-                                        className="form-check-label text-white"
+                                        className="form-check-label text-dark"
                                         htmlFor="digitalMarketing"
                                     >
                                         Digital Marketing
@@ -75,7 +75,7 @@ const Form = () => {
                                         id="uiUx"
                                     />
                                     <label
-                                        className="form-check-label text-white"
+                                        className="form-check-label text-dark"
                                         htmlFor="uiUx"
                                     >
                                         UI/UX Designing
@@ -91,7 +91,7 @@ const Form = () => {
                                         id="graphicDesign"
                                     />
                                     <label
-                                        className="form-check-label text-white"
+                                        className="form-check-label text-dark"
                                         htmlFor="graphicDesign"
                                     >
                                         Graphic Designing
@@ -100,16 +100,16 @@ const Form = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='d-flex'>
+                    <div className='d-flex mt-5'>
                         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                         <div className='mx-1'>
-                        <label className="form-check-label text-2" for="flexCheckDefault">
+                        <label className="form-check-label text-2 fs-5 mx-2 mx-md-2" for="flexCheckDefault">
                         I agree to the Terms and Conditions 
                         </label>
                         </div>
                     </div>
                     <div className='text-center d-flex justify-content-center align-items-center mt-5'>
-                         <button className='btn rounded-3 px-2 py-2 text-white border border-1' color='#70BF29'style={{
+                         <button className='btn rounded-3 px-2 py-2 text-dark border border-1' color='#70BF29'style={{
                             background:"#70BF29"
                          }}>Submit Now</button>  
                     </div>
