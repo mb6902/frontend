@@ -198,7 +198,7 @@ const OurTeam = () => {
                             lineHeight: "32px",
                             color: "#000000",
                             font: "Poppins"
-                        }}>Jeeva Kumar</h5>
+                        }}>Ajith</h5>
                         <p style={{
                             fontWeight: "400",
                             fontSize: "14px",
