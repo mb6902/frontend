@@ -1,5 +1,5 @@
 import App from "../../Assests/Ourservice/app.png";
-
+import './OurService.css';
 const AppDevelopment  = () => {
   return (
     <div className="row p-md-5 mt-5 mt-md-0 mx-5">

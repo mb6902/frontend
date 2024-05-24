@@ -1,4 +1,5 @@
-import BAS from "../../Assests/Ourservice/BAS.png"
+import BAS from "../../Assests/Ourservice/BAS.png";
+import './OurService.css';
 const BusinessAnalyst  = () => {
   return (
     <div className="row p-md-5 mt-5 mt-md-0  mx-5">

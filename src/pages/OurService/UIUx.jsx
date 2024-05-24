@@ -1,4 +1,5 @@
 import UI from "../../Assests/Ourservice/Ui Ux.png";
+import './OurService.css';
 const UIUx  = () => {
   return (
     <div className="row p-md-5 mt-5 mx-5">

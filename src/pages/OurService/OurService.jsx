@@ -14,7 +14,7 @@ import OurTeamService from "./OurTeamService";
 import SEOService from "./SEOService";
 import UIUx from "./UIUx";
 import WebDevelopment from "./WebDevelopment";
-
+import './OurService.css';
 const OurService  = () => {
   return (
     <div className="container-fluid">

@@ -9,6 +9,7 @@ import Shipping from "./Shipping";
 import TermsAndConditions from "./TermsAndConditions";
 import ContactUs from "../../Components/Contact/Contact"
 import Footer from "../../Components/Footer/Footer"
+import '../../pages/OurService/OurService.css';
 const LearnWithUs = () => {
     return (
         <div className="container-fluid">
@@ -24,12 +25,14 @@ const LearnWithUs = () => {
                     </div>
                 </div>
 
-                <div className="bg-main">
-                    <div className="d-flex justify-content-end align-items-end">
+                <div className="bg-main container-fluid">
+                <div className="col-12 col-md-7">
                         <Form />
-                        <h3 className="text-bg-main w-25 h-100">Learn with Us!</h3>
                     </div>
-                </div>
+            <div className=" d-flex justify-content-center align-items-center justify-content-md-end align-items-md-end ">
+            <h3 className="text-bg-main d-flex align-items-end">Learn with Us!</h3>
+            </div>
+        </div>
                 <div className="mt-5">
                     <PrivacyPolicy />
                 </div>

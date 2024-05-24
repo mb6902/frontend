@@ -1,4 +1,5 @@
 import SEO from "../../Assests/Ourservice/SEO.png";
+import './OurService.css';
 const SEOService  = () => {
   return (
     <div className="row p-md-5 mt-5 mx-5">
